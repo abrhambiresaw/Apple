@@ -1,7 +1,29 @@
-body {
-  background-color: black;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-header li {
+header {
+  background-color: black;
+  padding: 10px;
+}
+
+header a {
   color: white;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul li img {
+  width: 15px;
 }
