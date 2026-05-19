@@ -12,11 +12,12 @@ body {
 
 /* Header Style */
 .header-wrapper {
-	background: black; 
-	color: #fff;
+	background: gray; 
+	color: white;
 	font-weight: 200;
 	font-size: 0.75em;	
 }
+
 .header-wrapper ul {
 	display: flex;
   -webkit-box-pack: justify;
@@ -31,6 +32,7 @@ body {
 	text-decoration: none;
 	color: #fff;
 }
+
 .header-wrapper ul {
 	list-style: none;
 }
