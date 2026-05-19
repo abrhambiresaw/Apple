@@ -5,6 +5,7 @@ import Footer from './components/Footer/footer.jsx';
 import MacBook from './components/macBook/macBook.jsx';
 import Iphone11 from './components/iphone11/Iphone11.jsx';
 import Iphone from './components/Iphone/Iphone.jsx';
+import Watch from './components/Watch&card/Watch.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MacBook />
       <Iphone11 />
       <Iphone />
+      <Watch />
       <Footer />
     </div>
   )
