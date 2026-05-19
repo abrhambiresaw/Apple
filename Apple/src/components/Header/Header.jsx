@@ -1,9 +1,58 @@
-import React from 'react'
+import React from "react";
+
+import logo from '../images/logo.png';
+import search from '../images/search.png';
+import cart from '../images/cart.png';
 
 function header() {
   return (
-    <div>header</div>
-  )
+    <div>
+      <header className="header-wrapper">
+        <div className="internal-wrapper">
+          <div className="header-links-wrapper">
+            <ul>
+              <li className="logo-link">
+                <a href="/">
+                  <img src={logo} />
+                </a>
+              </li>
+              <li>
+                <a href="/mac/">Mac</a>
+              </li>
+              <li>
+                <a href="#">iphone</a>
+              </li>
+              <li>
+                <a href="#">ipad</a>
+              </li>
+              <li>
+                <a href="#">watch</a>
+              </li>
+              <li>
+                <a href="#">tv</a>
+              </li>
+              <li>
+                <a href="#">Music</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+              <li className="search-link">
+                <a href="/search/">
+                  <img src={search} />
+                </a>
+              </li>
+              <li className="cart-link">
+                <a href="/cart/">
+                  <img src={cart} />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+  );
 }
 
-export default header
+export default header;
