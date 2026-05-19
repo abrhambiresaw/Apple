@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from '../images/logo.png';
-import search from '../images/search.png';
+import search from '../images/search-icon.png';
 import cart from '../images/cart.png';
 
 function header() {
