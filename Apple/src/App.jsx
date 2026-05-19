@@ -6,6 +6,7 @@ import MacBook from './components/macBook/macBook.jsx';
 import Iphone11 from './components/iphone11/Iphone11.jsx';
 import Iphone from './components/Iphone/Iphone.jsx';
 import Watch from './components/Watch/Watch.jsx';
+import AirPods from './components/AirPods/AirPods.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Iphone11 />
       <Iphone />
       <Watch />
+      <AirPods />
       <Footer />
     </div>
   )
