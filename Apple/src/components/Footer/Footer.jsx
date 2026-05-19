@@ -1,6 +1,6 @@
 import React from 'react';
 
-import images from '../images/16.png';
+import flag from '../images/16.png';
 
 function Footer() {
   return (
@@ -136,7 +136,7 @@ function Footer() {
             </ul>
           </div>
           <div className="footer-country">
-            <div className="flag-wrapper"><img src={image} /></div>
+            <div className="flag-wrapper"><img src={flag} /></div>
             <div className="footer-country-name">United States</div>
           </div>
         </div>
