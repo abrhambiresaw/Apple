@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import WatchSeries from '../images/watch-series-5.jpg';
+import appleCard from '../images/apple-card.jpg';
 
 function Watch() {
   return (
@@ -8,7 +10,7 @@ function Watch() {
       <div className="left-side-wrapper">
         <div className="top-logo-wrapper">
           <div className="logo-wrapper">
-            <img src="src/components/images/watch-series-5.jpg" />
+            <img src={WatchSeries} />
           </div>
         </div>
         <div className="description-wraper">
@@ -25,7 +27,7 @@ function Watch() {
       <div className="right-side-wrapper">
         <div className="top-logo-wrapper">
           <div className="logo-wrapper">
-            <img src="src/components/images/apple-card.jpg" />
+            <img src={appleCard} />
           </div>
         </div>
         <div className="description-wraper">
