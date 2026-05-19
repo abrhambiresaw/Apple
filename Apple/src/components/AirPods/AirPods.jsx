@@ -5,30 +5,30 @@ import servantLogo from '../images/servant-logo.png'
 function AirPods() {
   return (
     <div>
-      <section class="fifth-heghlight-wrapper">
-        <div class="left-side-wrapper">
-          <div class="top-logo-wrapper">
-            <div class="logo-wrapper">
+      <section className="fifth-heghlight-wrapper">
+        <div className="left-side-wrapper">
+          <div className="top-logo-wrapper">
+            <div className="logo-wrapper">
               <img src={appleCardLogo} />
             </div>
           </div>
 
-          <div class="tvshow-logo-wraper">
+          <div className="tvshow-logo-wraper">
             <img src={servantLogo} />
           </div>
 
-          <div class="watch-more-wrapper">
+          <div className="watch-more-wrapper">
             <a href="#">Watch the trailer</a>
           </div>
         </div>
-        <div class="right-side-wrapper">
-          <div class="top-logo-wrapper">
-            <div class="logo-wrapper">AirPods Pro</div>
+        <div className="right-side-wrapper">
+          <div className="top-logo-wrapper">
+            <div className="logo-wrapper">AirPods Pro</div>
           </div>
 
-          <div class="description-wraper">Magic like you’ve never heard.</div>
+          <div className="description-wraper">Magic like you’ve never heard.</div>
 
-          <div class="links-wrapper">
+          <div className="links-wrapper">
             <ul>
               <li>
                 <a href="">Learn more</a>
