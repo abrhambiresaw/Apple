@@ -4,7 +4,7 @@ import logo from '../images/logo.png';
 import search from '../images/search-icon.png';
 import cart from '../images/cart.png';
 
-function header() {
+function Header() {
   return (
     <div>
       <header className="header-wrapper">
@@ -55,4 +55,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;
