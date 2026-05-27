@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header/Header.jsx";
+import HomePage from "./components/Home/Home.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import MacBook from "./components/MacBook/MacBook.jsx";
 import Iphone11 from "./components/Iphone11/Iphone11.jsx";
@@ -16,12 +17,15 @@ function App() {
     <div>
       <Header />
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="/MacBook" element={<MacBook />} />
         <Route path="/Iphone11" element={<Iphone11 />} />
         <Route path="/Iphone" element={<Iphone />} />
         <Route path="/Watch" element={<Watch />} />
         <Route path="/AirPods" element={<AirPods />} />
         <Route path="/MacBookPro" element={<MacBookPro />} />
+        <Route path="/search" element={<search />} />
+        <Route path="/cart" element={<cart />} />
         
       </Routes>
       {/* <YouTube /> */}

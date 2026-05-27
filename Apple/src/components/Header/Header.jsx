@@ -30,10 +30,10 @@ function Header() {
                 <Link to="/Watch">Watch</Link>
               </li>
               <li>
-                <Link to="/tv">TV</Link>
+                <Link to="/AirPods">AirPods</Link>
               </li>
               <li>
-                <Link to="/Music">Music</Link>
+                <Link to="/MacBookPro">MacBookPro</Link>
               </li>
               <li>
                 <Link to="/Support">Support</Link>
