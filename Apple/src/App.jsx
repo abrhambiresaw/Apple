@@ -8,6 +8,7 @@ import Iphone from './components/Iphone/Iphone.jsx';
 import Watch from './components/Watch/Watch.jsx';
 import AirPods from './components/AirPods/AirPods.jsx';
 import MacBookPro from './components/MacBookPro/MacBookPro.jsx';
+import YouTube from './components/YouTube/YouTube.jsx';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Watch />
       <AirPods />
       <MacBookPro />
+      <YouTube />
       <Footer />
     </div>
   )
