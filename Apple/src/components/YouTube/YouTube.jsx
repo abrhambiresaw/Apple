@@ -28,7 +28,7 @@ function YouTube() {
     <div className="youtube-container">
       <h1>Latest Apple Videos</h1>
       <div className="video-grid">
-        {videos.map((video) => (
+        {videos?.map((video) => (
           <div key={video.id.videoId} className="video-card">
             <iframe
               src={`https://www.youtube.com/embed/${video.id.videoId}`}
@@ -38,7 +38,7 @@ function YouTube() {
             <h3>{video.snippet.title}</h3>
             <p>{video.snippet.description.slice(0, 100)}...</p>
           </div>
-        ))}
+        ))} //? used for if the api can't fetch the website won't break
       </div>
     </div>
   );
