@@ -1,8 +1,8 @@
 import React from "react";
 
-import logo from '../images/logo.png';
-import search from '../images/search-icon.png';
-import cart from '../images/cart.png';
+import logo from "../images/logo.png";
+import search from "../images/search-icon.png";
+import cart from "../images/cart.png";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -13,39 +13,39 @@ function Header() {
           <div className="header-links-wrapper">
             <ul>
               <li className="logo-link">
-                <Link href="/">
-                  <img src={logo} />
+                <Link to="/">
+                  <img src={logo} alt="Logo" />
                 </Link>
               </li>
               <li>
-                <Link href="/mac/">Mac</Link>
+                <Link to="/MacBook">Mac</Link>
               </li>
               <li>
-                <Link href="#">iphone</Link>
+                <Link to="/Iphone11">iPhone 11</Link>
               </li>
               <li>
-                <Link href="#">ipad</Link>
+                <Link to="/Iphone">iPhone</Link>
               </li>
               <li>
-                <Link href="#">watch</Link>
+                <Link to="/Watch">Watch</Link>
               </li>
               <li>
-                <Link href="#">tv</Link>
+                <Link to="/tv">TV</Link>
               </li>
               <li>
-                <Link href="#">Music</Link>
+                <Link to="/Music">Music</Link>
               </li>
               <li>
-                <Link href="#">Support</Link>
+                <Link to="/Support">Support</Link>
               </li>
               <li className="search-link">
-                <Link href="/search/">
-                  <img src={search} />
+                <Link to="/search">
+                  <img src={search} alt="Search" />
                 </Link>
               </li>
               <li className="cart-link">
-                <Link href="/cart/">
-                  <img src={cart} />
+                <Link to="/cart">
+                  <img src={cart} alt="Cart" />
                 </Link>
               </li>
             </ul>

@@ -16,12 +16,12 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="MacBook" element={<MacBook />} />
-        <Route path="Iphone11" element={<Iphone11 />} />
-        <Route path="Iphone" element={<Iphone />} />
-        <Route path="Watch" element={<Watch />} />
-        <Route path="AirPods" element={<AirPods />} />
-        <Route path="MacBookPro" element={<MacBookPro />} />
+        <Route path="/MacBook" element={<MacBook />} />
+        <Route path="/Iphone11" element={<Iphone11 />} />
+        <Route path="/Iphone" element={<Iphone />} />
+        <Route path="/Watch" element={<Watch />} />
+        <Route path="/AirPods" element={<AirPods />} />
+        <Route path="/MacBookPro" element={<MacBookPro />} />
         
       </Routes>
       {/* <YouTube /> */}
