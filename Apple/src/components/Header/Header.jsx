@@ -3,6 +3,7 @@ import React from "react";
 import logo from '../images/logo.png';
 import search from '../images/search-icon.png';
 import cart from '../images/cart.png';
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -12,40 +13,40 @@ function Header() {
           <div className="header-links-wrapper">
             <ul>
               <li className="logo-link">
-                <a href="/">
+                <Link href="/">
                   <img src={logo} />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/mac/">Mac</a>
+                <Link href="/mac/">Mac</Link>
               </li>
               <li>
-                <a href="#">iphone</a>
+                <Link href="#">iphone</Link>
               </li>
               <li>
-                <a href="#">ipad</a>
+                <Link href="#">ipad</Link>
               </li>
               <li>
-                <a href="#">watch</a>
+                <Link href="#">watch</Link>
               </li>
               <li>
-                <a href="#">tv</a>
+                <Link href="#">tv</Link>
               </li>
               <li>
-                <a href="#">Music</a>
+                <Link href="#">Music</Link>
               </li>
               <li>
-                <a href="#">Support</a>
+                <Link href="#">Support</Link>
               </li>
               <li className="search-link">
-                <a href="/search/">
+                <Link href="/search/">
                   <img src={search} />
-                </a>
+                </Link>
               </li>
               <li className="cart-link">
-                <a href="/cart/">
+                <Link href="/cart/">
                   <img src={cart} />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
