@@ -4,8 +4,6 @@ import "./YouTube.css";
 const API_KEY    = import.meta.env.VITE_YOUTUBE_KEY;
 const CHANNEL_ID = "UCE_M8A5yxnLfW0KghEeajjw";
 
-// Add this temporarily at the top of YouTube.jsx
-console.log("API KEY:", import.meta.env.VITE_YOUTUBE_KEY);
 
 function YouTube() {
   const [videos, setVideos]   = useState([]);
