@@ -9,22 +9,22 @@ import Watch from "./components/Watch/Watch.jsx";
 import AirPods from "./components/AirPods/AirPods.jsx";
 import MacBookPro from "./components/MacBookPro/MacBookPro.jsx";
 import YouTube from "./components/YouTube/YouTube.jsx";
-import { Routes } from "react-router";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <Header />
       <Routes>
-        <MacBook />
-        <Iphone11 />
-        <Iphone />
-        <Watch />
-        <AirPods />
-        <MacBookPro />
-        {/* <YouTube /> */}
+        <Route path="MacBook" element={<MacBook />} />
+        <Route path="Iphone11" element={<Iphone11 />} />
+        <Route path="Iphone" element={<Iphone />} />
+        <Route path="Watch" element={<Watch />} />
+        <Route path="AirPods" element={<AirPods />} />
+        <Route path="MacBookPro" element={<MacBookPro />} />
+        
       </Routes>
-
+      {/* <YouTube /> */}
       <Footer />
     </div>
   );
