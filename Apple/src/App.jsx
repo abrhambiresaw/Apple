@@ -21,7 +21,7 @@ function App() {
       <Watch />
       <AirPods />
       <MacBookPro />
-      <YouTube />
+      {/* <YouTube /> */}
       <Footer />
     </div>
   )
