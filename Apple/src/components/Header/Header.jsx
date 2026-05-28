@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div>
+    <>
       <header className="header-wrapper">
         <div className="internal-wrapper">
           <div className="header-links-wrapper">
@@ -52,7 +52,7 @@ function Header() {
           </div>
         </div>
       </header>
-    </div>
+    </>
   );
 }
 

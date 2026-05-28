@@ -29,9 +29,10 @@ function App() {
           {/* <Route path="/search" element={<Search />} />
           <Route path="/cart" element={<Cart />} /> */}
           <Route path="*" element={<NotFound />} />
+          <Route path="/YouTube" element = {<YouTube />} />
         </Route>
       </Routes>
-      {/* <YouTube /> */}
+      
     </div>
   );
 }
