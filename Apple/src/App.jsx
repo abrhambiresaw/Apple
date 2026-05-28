@@ -9,7 +9,6 @@ import Iphone from "./components/Iphone/Iphone.jsx";
 import Watch from "./components/Watch/Watch.jsx";
 import AirPods from "./components/AirPods/AirPods.jsx";
 import MacBookPro from "./components/MacBookPro/MacBookPro.jsx";
-import YouTube from "./components/YouTube/YouTube.jsx";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./components/NotFound/NotFound.jsx";
 import SharedLayout from "./components/SharedLayout/SharedLayout.jsx";
@@ -29,7 +28,6 @@ function App() {
           {/* <Route path="/search" element={<Search />} />
           <Route path="/cart" element={<Cart />} /> */}
           <Route path="*" element={<NotFound />} />
-          <Route path="/YouTube" element = {<YouTube />} />
         </Route>
       </Routes>
       
