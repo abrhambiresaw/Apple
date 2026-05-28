@@ -12,26 +12,26 @@ import MacBookPro from "./components/MacBookPro/MacBookPro.jsx";
 import YouTube from "./components/YouTube/YouTube.jsx";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./components/NotFound/NotFound.jsx";
+import SharedLayout from "./components/SharedLayout/SharedLayout.jsx";
 
 function App() {
   return (
     <div>
-      <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/MacBook" element={<MacBook />} />
-        <Route path="/Iphone11" element={<Iphone11 />} />
-        <Route path="/Iphone" element={<Iphone />} />
-        <Route path="/Watch" element={<Watch />} />
-        <Route path="/AirPods" element={<AirPods />} />
-        <Route path="/MacBookPro" element={<MacBookPro />} />
-        <Route path="/search" element={<search />} />
-        <Route path="/cart" element={<cart />} />
-        <Route path="*" element={<NotFound />} />
-        
+        <Route path="/" element={SharedLayout}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/MacBook" element={<MacBook />} />
+          <Route path="/Iphone11" element={<Iphone11 />} />
+          <Route path="/Iphone" element={<Iphone />} />
+          <Route path="/Watch" element={<Watch />} />
+          <Route path="/AirPods" element={<AirPods />} />
+          <Route path="/MacBookPro" element={<MacBookPro />} />
+          <Route path="/search" element={<search />} />
+          <Route path="/cart" element={<cart />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
       </Routes>
       {/* <YouTube /> */}
-      <Footer />
     </div>
   );
 }
