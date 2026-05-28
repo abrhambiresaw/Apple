@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={SharedLayout}>
+        <Route path="/" element={<SharedLayout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/MacBook" element={<MacBook />} />
           <Route path="/Iphone11" element={<Iphone11 />} />
@@ -26,8 +26,8 @@ function App() {
           <Route path="/Watch" element={<Watch />} />
           <Route path="/AirPods" element={<AirPods />} />
           <Route path="/MacBookPro" element={<MacBookPro />} />
-          <Route path="/search" element={<search />} />
-          <Route path="/cart" element={<cart />} />
+          {/* <Route path="/search" element={<Search />} />
+          <Route path="/cart" element={<Cart />} /> */}
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
