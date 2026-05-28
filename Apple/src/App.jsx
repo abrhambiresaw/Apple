@@ -11,6 +11,7 @@ import AirPods from "./components/AirPods/AirPods.jsx";
 import MacBookPro from "./components/MacBookPro/MacBookPro.jsx";
 import YouTube from "./components/YouTube/YouTube.jsx";
 import { Route, Routes } from "react-router-dom";
+import NotFound from "./components/NotFound/NotFound.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/MacBookPro" element={<MacBookPro />} />
         <Route path="/search" element={<search />} />
         <Route path="/cart" element={<cart />} />
+        <Route path="*" element={<NotFound />} />
         
       </Routes>
       {/* <YouTube /> */}
